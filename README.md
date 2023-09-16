@@ -18,19 +18,19 @@ This project is driven by the following two main objectives
 
 The project’s block diagram shown below illustrates its architecture and key components. The Arduino microcontroller is the central controller, connecting to inputs like the power supply, switch, and keypad. The power supply provides energy, the switch controls, and the keypad allows secure password input. The LCD displays the system status, and the circuit breaker controls circuits. This diagram shows how user input interacts with the Arduino to manage electrical circuits effectively.
 
-![](BLOCK DIAGRAM.png)
+![Block Diagram of the Project](BLOCK DIAGRAM.png)
 
 ### **CIRCUIT DIAGRAM OF THE PROJECT WITH RESULT ACHIEVED**
 
 The figure below shows the interfacing of the intefacing of the circuit diagram and the result when correct password is used with the keypad.
 
-![](result 1.png)
+![Result with correct password](result 1.png)
 
 In the figure above we can see the relay is turned on and the lamp is ON.
 
 However, when an incorrect password is used the relay will be deactivated and the lamp will be turned off as shown in the figure below.
 
-![](result 2.png)
+![result with incorrect password](result 2.png)
 
 ---------
 
