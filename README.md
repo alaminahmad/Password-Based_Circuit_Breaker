@@ -8,8 +8,23 @@ This project is driven by the following two main objectives
 
 • To build an Arduino program to on an LED if the correct password is inputted to a keypad and to turn off a lamp is an incorrect password is inputted
 
+# **BLOCK DIAGRAM OF THE PROJECT**
 
+The project’s block diagram shown below illustrates its architecture and key components. The Arduino microcontroller is the central controller, connecting to inputs like the power supply, switch, and keypad. The power supply provides energy, the switch controls, and the keypad allows secure password input. The LCD displays the system status, and the circuit breaker controls circuits. This diagram shows how user input interacts with the Arduino to manage electrical circuits effectively.
 
-This project successfully implements a secure and user-friendly system for controlling electrical circuits. The system elegantly guides users through the process, ensuring password validation and enabling efficient control. By prioritizing both security and ease of use, this project provides a practical solution for managing electrical circuits, enhancing overall functionality and user experience.
+![](https://miro.medium.com/v2/resize:fit:630/1*zyN1_TfTDg64nSv0qnvSqw.png)
 
+# **CIRCUIT DIAGRAM OF THE PROJECT WITH RESULT ACHIEVED**
+
+The figure below shows the interfacing of the intefacing of the circuit diagram and the result when correct password is used with the keypad.
+
+![](https://miro.medium.com/v2/resize:fit:630/1*K90NtrVthcmPTL8-WYCuGQ.png)
+
+In the figure above we can see the relay is turned on and the lamp is ON.
+
+However, when an incorrect password is used the relay will be deactivated and the lamp will be turned off as shown in the figure below.
+
+![](https://miro.medium.com/v2/resize:fit:630/1*orTm46XCFcrbmZeqjZGcAg.png)# SUMMARY AND CONCLUSION
+
+In conclusion, this project successfully implements a secure and user-friendly system for controlling electrical circuits. The system elegantly guides users through the process, ensuring password validation and enabling efficient control. By prioritizing both security and ease of use, this project provides a practical solution for managing electrical circuits, enhancing overall functionality and user experience.
 To get access to a complete article about this topic  visit the medium post [Password-Based Circuit Breaker](https://medium.com/@alaminahmad65653/simulation-of-password-based-circuit-breaker-using-proteus-software-dcedf489d252)
